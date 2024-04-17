@@ -1,7 +1,7 @@
-function ImageList() {
-    return(
-        <div></div>
-    )
-}
+import React from 'react'
 
-export default ImageList;
+export default function ImageList() {
+  return (
+    <div>ImageList</div>
+  )
+}

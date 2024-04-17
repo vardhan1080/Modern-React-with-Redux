@@ -1,7 +1,7 @@
-function SearchBar() {
-    return(
-        <div></div>
-    )
-}
+import React from 'react'
 
-export default SearchBar;
+export default function SearchBar() {
+  return (
+    <div>SearchBar</div>
+  )
+}

@@ -1,7 +1,7 @@
-function ImageShow() {
-    return(
-        <div></div>
-    )
-}
+import React from 'react'
 
-export default ImageShow;
+export default function ImageShow() {
+  return (
+    <div>ImageShow</div>
+  )
+}
