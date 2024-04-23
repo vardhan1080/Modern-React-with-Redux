@@ -43,6 +43,14 @@
     {
       "title": "Man",
       "id": 11
+    },
+    {
+      "title": "Beach",
+      "id": 12
+    },
+    {
+      "title": "Farm",
+      "id": 13
     }
   ]
 }
