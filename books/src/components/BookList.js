@@ -1,4 +1,5 @@
-import React from 'react'
+import React,{useContext} from 'react';
+import BooksContext from '../context/books';
 import BookShow from './BookShow';
 
 export default function BookList({ books, onDelete, onEdit }) {
@@ -8,6 +9,8 @@ export default function BookList({ books, onDelete, onEdit }) {
   });
 
   return (
-    <div className="book-list">{renderedBooks}</div>
+    <div className="book-list">
+      {renderedBooks}
+    </div>
   )
 }
