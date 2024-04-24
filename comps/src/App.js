@@ -1,14 +1,19 @@
-import React from 'react'
+import { GoBell, GoAlert } from 'react-icons/go'
 import Button from './Button'
 
 export default function App() {
+
+  const handleClick = () => {
+    console.log('button clicked');
+  };
+
   return (
     <div>
       <div>
-        <Button primary outline>ABCDEFGH</Button>
+        <Button primary outline onClick={handleClick} className="mb-5"><GoBell />ABCDEFGH</Button>
       </div>
       <div>
-        <Button secondary>ABCDEFGH</Button>
+        <Button secondary onMouseEnter={handleClick}><GoAlert />ABCDEFGH</Button>
       </div>
       <div>
         <Button success>ABCDEFGH</Button>
