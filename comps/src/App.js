@@ -5,19 +5,19 @@ export default function App() {
   return (
     <div>
       <div>
-        <Button primary>First</Button>
+        <Button primary outline>ABCDEFGH</Button>
       </div>
       <div>
-        <Button secondary>Second</Button>
+        <Button secondary>ABCDEFGH</Button>
       </div>
       <div>
-        <Button success>Third</Button>
+        <Button success>ABCDEFGH</Button>
       </div>
       <div>
-        <Button warning>Fourth</Button>
+        <Button warning outline rounded>ABCDEFGH</Button>
       </div>
       <div>
-        <Button danger>Fourth</Button>
+        <Button danger>ABCDEFGH</Button>
       </div>
     </div>
   )
