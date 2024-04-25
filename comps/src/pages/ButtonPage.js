@@ -1,7 +1,7 @@
-import { GoBell, GoAlert } from 'react-icons/go'
-import Button from './components/Button'
+import { GoBell, GoAlert } from 'react-icons/go';
+import Button from '../components/Button';
 
-export default function App() {
+export default function ButtonPage() {
 
   const handleClick = () => {
     console.log('button clicked');
