@@ -7,10 +7,10 @@ export default function Accordion({ items }) {
 
     const handleClick = (nextIndex) => {
 
-        setExpandedIndex((current)=>{
-            if(current === nextIndex){
+        setExpandedIndex((current) => {
+            if (current === nextIndex) {
                 return -1;
-            }else{
+            } else {
                 return nextIndex;
             }
         });

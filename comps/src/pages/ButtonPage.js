@@ -3,7 +3,7 @@ import Button from '../components/Button';
 
 export default function ButtonPage() {
 
-  const handleClick = () => {};
+  const handleClick = () => { };
 
   return (
     <div>

@@ -9,6 +9,6 @@ const root = ReactDOM.createRoot(el);
 
 root.render(
     <NavigationProvider>
-        <App/>
+        <App />
     </NavigationProvider>
 );
